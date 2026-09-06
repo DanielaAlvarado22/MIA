@@ -1,0 +1,28 @@
+# Mi cuevita
+
+
+grid:
+  width: 4
+  height: 4
+
+agent:
+  start: [1, 1]
+  direction: east
+  arrows: 1
+
+wumpus: [4, 4]
+
+pits:
+  - [1, 4]
+  - [4, 1]
+  - [2, 3]
+
+gold: [3, 4]
+
+scoring:
+  gold: 1000
+  death: -1000
+  step: -1
+  shoot: -10
+
+max_steps: 200
